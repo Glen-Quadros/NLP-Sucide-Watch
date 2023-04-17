@@ -1,0 +1,14 @@
+<html>
+<head>
+    <title>Text Classification</title>
+</head>
+<body>
+    <h1>Enter some text to classify:</h1>
+    <form method="post" action="{% url 'result' %}">
+        {% csrf_token %}
+        <textarea name="text" rows="4" cols="50"></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
