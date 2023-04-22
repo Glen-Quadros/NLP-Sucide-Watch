@@ -1,4 +1,4 @@
-# NLP-Sucide-Watch
+# NLP-Suicide-Watch
 
 The task was to develop an AI-Powered system to detect any potential self-harm or suicidal thoughts from any paragraph of text and flag it. I obtained a dataset from Kaggle and made the necessary modifications. Then, I utilised the Spacy Python library to preprocess the data. To vectorise the data, I employed the CountVectorizer. After that, I trained a machine learning model utilising the Support Vector Classifier. To obtain the optimal hyperparameters, I employed GridSearchCV and executed a grid search. I then utilised the best hyperparameters to train the final model. Finally, I saved the model and vectoriser as a .pkl file utilising the Joblib Python library to use them for constructing an API.
 
